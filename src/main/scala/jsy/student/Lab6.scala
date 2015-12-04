@@ -10,10 +10,10 @@ object Lab6 extends jsy.util.JsyApplication {
 
   /*
    * CSCI 3155: Lab 6
-   * <Your Name>
+   * Zach Lamb
    *
-   * Partner: <Your Partner's Name>
-   * Collaborators: <Any Collaborators>
+   * Partner: Justin Hill
+   * Collaborators: Justin Hill
    */
 
   /*
@@ -55,6 +55,8 @@ object Lab6 extends jsy.util.JsyApplication {
    * 
    *   re ::= union
    *   union ::= intersect {| intersect}
+   *  // union ::== intersect|unions
+   *  // unions ::== |intersect
    *   intersect ::= concat {& concat}
    *   concat ::= not {not}
    *   not ::= ~ not | star
@@ -75,38 +77,113 @@ object Lab6 extends jsy.util.JsyApplication {
      * case class Success[+T](result: T, next: Input) extends ParseResult[T]
      * case class Failure(next: Input) extends ParseResult[Nothing]
      */
-
+    //parse result is either a success or failure ex. Success(RegExpr,next)
+    //Failure("expected concat",next)
+    //Sucess(RSingle(a),"|c")
     def re(next: Input): ParseResult[RegExpr] = union(next)
 
     def union(next: Input): ParseResult[RegExpr] = intersect(next) match {
       case Success(r, next) => {
         def unions(acc: RegExpr, next: Input): ParseResult[RegExpr] =
-          if (next.atEnd) Success(acc, next)
+          if (next.atEnd) Success(acc, next)//epsilon
           else (next.first, next.rest) match {
             case ('|', next) => intersect(next) match {
-              case Success(r, next) => unions(RUnion(acc, r), next)
-              case _ => Failure("expected intersect", next)
+              case Success(r, next) => unions(RUnion(acc, r), next)//recursion case
+              case _ => Failure("expected intersect", next)//there was either something lik this "a||" b/c not a character. Any regex afte would pass 
             }
-            case _ => Success(acc, next)
+            case _ => Success(acc, next)//It doesn't have the pipe. Two chars. It is epsilon. There is still a next
           }
         unions(r, next)
       }
       case _ => Failure("expected intersect", next)
     }
 
-    def intersect(next: Input): ParseResult[RegExpr] = ???
+    def intersect(next: Input): ParseResult[RegExpr] = concat(next) match {
+      case Success(r,next) => {
+        def intersects(acc:RegExpr, next: Input):ParseResult[RegExpr] = {
+          if (next.atEnd) Success(acc,next)
+          else (next.first, next.rest) match {
+            case ('&',next) => concat(next) match {
+              case Success(r,next) => intersects(RIntersect(acc,r),next)
+              case _ => Failure("expected concat", next)
+            }
+            case _ => Success(acc,next)
+          }
+        }
+        intersects(r,next)
+      }
+      case f => f
+    }
 
-    def concat(next: Input): ParseResult[RegExpr] = ???
+    def concat(next: Input): ParseResult[RegExpr] = {
+      if (!next.atEnd) {
+	    not(next) match {
+	      case Success(r,next) => {
+	        def concats(acc:RegExpr, next:Input):ParseResult[RegExpr] = {
+	          if(next.atEnd || next.first == '|' || next.first == '&' || next.first == ')') Success(acc,next)
+	          else not(next) match {
+	            case Success(r,next) => concats(RConcat(acc,r),next)
+	            case f => f
+	          }
+	        }
+	        concats(r,next)
+	      }
+	      case f => f
+	    }
+      } else Failure("expected concat",next)
+    }
 
-    def not(next: Input): ParseResult[RegExpr] = ???
+    def not(next: Input): ParseResult[RegExpr] ={
+      if (!next.atEnd) {
+	    (next.first,next.rest) match {
+		  case ('~',next) => not(next) match {
+		    case Success(r,next) => Success(RNeg(r),next)
+		    case f => f
+		  }
+		  case _ => star(next)
+		}
+      } else Failure("expected not", next)
+    }
 
-    def star(next: Input): ParseResult[RegExpr] = ???
+
+    def star(next: Input): ParseResult[RegExpr] = atom(next) match {
+	  case Success(r,next) if (!next.atEnd) => {
+	    def stars(acc:RegExpr,next:Input):ParseResult[RegExpr] = {
+	      if (next.atEnd) Success(acc,next)
+	      else (next.first,next.rest) match {
+	        case ('*',next) => stars(RStar(acc),next)
+	        case('+',next) => stars(RPlus(acc),next)
+	        case('?',next) => stars(ROption(acc),next)
+	        case _ => Success(acc,next)
+	      }
+	    }
+	    stars(r,next)
+      }
+      case f => f
+    }
 
     /* This set is useful to check if a Char is/is not a regular expression
        meta-language character.  Use delimiters.contains(c) for a Char c. */
     val delimiters = Set('|', '&', '~', '*', '+', '?', '!', '#', '.', '(', ')')
 
-    def atom(next: Input): ParseResult[RegExpr] = ???
+    def atom(next: Input): ParseResult[RegExpr] = {
+      if (next.atEnd) Failure("expected atom",next)
+      else {
+        (next.first,next.rest) match {
+          case (c,next) if (!delimiters.contains(c)) => ;Success(RSingle(c),next)
+          case ('!',next) => Success(RNoString,next)
+		  case ('#',next) => Success(REmptyString,next)
+		  case ('.',next) => Success(RAnyChar,next)
+		  case ('(',next) => re(next) match {
+		    case Success(r,next) => (next.first,next.rest) match {
+		      case (')',next) => Success(r,next)
+		      case _ => Failure("expected ')'",next)
+		    } 
+		    case f => f
+		  }
+        }
+      }
+    }
 
 
     /* External Interface */
@@ -125,20 +202,25 @@ object Lab6 extends jsy.util.JsyApplication {
 
   def retest(re: RegExpr, s: String): Boolean = {
     def test(re: RegExpr, chars: List[Char], sc: List[Char] => Boolean): Boolean = (re, chars) match {
+      // Spec: What is this function suppposed to do? Supposed to return true if chars is the same as sc?
+      //what about chars matches sc? IF a prefex of chars matches RE, then return sc(suffix of chars
       /* Basic Operators */
-      case (RNoString, _) => ???
-      case (REmptyString, _) => ???
-      case (RSingle(_), Nil) => ???
-      case (RSingle(c1), c2 :: t) => ???
-      case (RConcat(re1, re2), _) => ???
-      case (RUnion(re1, re2), _) => ???
-      case (RStar(re1), _) => ???
+      // !
+      case (RNoString, _) => false
+      case (REmptyString, _) => sc(chars)
+      case (RSingle(_), Nil) => false
+      case (RSingle(c1), c2 :: t) => if (c2 == c1) sc(t) else false
+      case (RConcat(re1, re2), _) => test(re1,chars,ch1 => test(re2,ch1,sc))
+      case (RUnion(re1, re2), _) => test(re1,chars,sc) || test(re2,chars,sc)
+      case (RStar(re1), _) => sc(chars) || test(re1,chars,{ next => if (next.size >= chars.size) false else test(re1,next,sc)})
 
       /* Extended Operators */
+
       case (RAnyChar, Nil) => false
+      //return some non empty string. The First character is something.
       case (RAnyChar, _ :: t) => sc(t)
-      case (RPlus(re1), _) => ???
-      case (ROption(re1), _) => ???
+      case (RPlus(re1), _) => test(RConcat(re1, RStar(re1)), chars, sc)
+      case (ROption(re1), _) => test(RUnion(REmptyString,re1),chars,sc) 
 
       /** *** Extra Credit Cases *****/
       case (RIntersect(re1, re2), _) => ???
