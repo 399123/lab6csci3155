@@ -1,0 +1,16 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(RegExprSpec, org.scalatest.tools.Framework$$anon$1@2c50c999, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Lab6JsyTests, org.scalatest.tools.Framework$$anon$1@2c50c999, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Lab6Suite, org.scalatest.tools.Framework$$anon$1@2c50c999, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Lab6Suite-0, org.scalatest.tools.Framework$$anon$1@2c50c999, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Lab6Suite-1, org.scalatest.tools.Framework$$anon$1@2c50c999, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 858 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 66[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 60, failed 6, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 6 TESTS FAILED ***[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	Lab6Suite[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	Lab6JsyTests[0m
+[0m[[31merror[0m] [0m	RegExprSpec[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/zach/CodingProjects/ppl/lab6/src/test/resources/lab6,/Users/zach/CodingProjects/ppl/lab6/target/scala-2.10/test-classes/lab6)[0m
+[0m[[0mdebug[0m] [0m	(/Users/zach/CodingProjects/ppl/lab6/src/test/resources/lab6/test6001_printre.ans,/Users/zach/CodingProjects/ppl/lab6/target/scala-2.10/test-classes/lab6/test6001_printre.ans)[0m
+[0m[[0mdebug[0m] [0m	(/Users/zach/CodingProjects/ppl/lab6/src/test/resources/lab6/test6001_printre.jsy,/Users/zach/CodingProjects/ppl/lab6/target/scala-2.10/test-classes/lab6/test6001_printre.jsy)[0m
+[0m[[0mdebug[0m] [0m	(/Users/zach/CodingProjects/ppl/lab6/src/test/resources/lab6/test6002_regexprdo.ans,/Users/zach/CodingProjects/ppl/lab6/target/scala-2.10/test-classes/lab6/test6002_regexprdo.ans)[0m
+[0m[[0mdebug[0m] [0m	(/Users/zach/CodingProjects/ppl/lab6/src/test/resources/lab6/test6002_regexprdo.jsy,/Users/zach/CodingProjects/ppl/lab6/target/scala-2.10/test-classes/lab6/test6002_regexprdo.jsy)[0m
+[0m[[0mdebug[0m] [0m	(/Users/zach/CodingProjects/ppl/lab6/src/test/resources/lab6/test6003_regexprstep.ans,/Users/zach/CodingProjects/ppl/lab6/target/scala-2.10/test-classes/lab6/test6003_regexprstep.ans)[0m
+[0m[[0mdebug[0m] [0m	(/Users/zach/CodingProjects/ppl/lab6/src/test/resources/lab6/test6003_regexprstep.jsy,/Users/zach/CodingProjects/ppl/lab6/target/scala-2.10/test-classes/lab6/test6003_regexprstep.jsy)[0m

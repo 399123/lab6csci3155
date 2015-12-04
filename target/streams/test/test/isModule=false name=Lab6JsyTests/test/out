@@ -1,0 +1,170 @@
+[0m[[0minfo[0m] [0m[32mLab6JsyTests:[0m[0m
+[0m[[0minfo[0m] [0m[32meval on src/test/resources/lab6/test6001_printre.jsy[0m[0m
+[0m[[0minfo[0m] [0m[32m- should match src/test/resources/lab6/test6001_printre.ans (157 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32meval on src/test/resources/lab6/test6002_regexprdo.jsy[0m[0m
+[0m[[0minfo[0m] [0m[31m- should match src/test/resources/lab6/test6002_regexprdo.ans *** FAILED *** (79 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[31m  Computed output does not match expected output.[0m[0m
+[0m[[0minfo[0m] [0m[31m  Computed:[0m[0m
+[0m[[0minfo[0m] [0m[31m  # Type checking ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m  Expected:[0m[0m
+[0m[[0minfo[0m] [0m[31m  # Type checking ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  ## Undefined[0m[0m
+[0m[[0minfo[0m] [0m[31m  # Stepping ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    0:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    1:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    2:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    3:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    4:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  false[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    5:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    6:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    7:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    8:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    9:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   10:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  false[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   11:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   12:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   13:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  false[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   14:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   15:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   16:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   17:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   18:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   19:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   20:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   21:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   22:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   23:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   24:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   25:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   26:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   27:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   28:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   29:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   30:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   31:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Print(B(false))[0m[0m
+[0m[[0minfo[0m] [0m[31m  false[0m[0m
+[0m[[0minfo[0m] [0m[31m  ## Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  undefined (JavascriptyTester.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[32meval on src/test/resources/lab6/test6003_regexprstep.jsy[0m[0m
+[0m[[0minfo[0m] [0m[31m- should match src/test/resources/lab6/test6003_regexprstep.ans *** FAILED *** (46 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[31m  Computed output does not match expected output.[0m[0m
+[0m[[0minfo[0m] [0m[31m  Computed:[0m[0m
+[0m[[0minfo[0m] [0m[31m  # Type checking ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m  Expected:[0m[0m
+[0m[[0minfo[0m] [0m[31m  # Type checking ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  ## bool[0m[0m
+[0m[[0minfo[0m] [0m[31m  # Stepping ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    0:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Decl(MConst,a_re,RE(RStar(RSingle(a))),Decl(MConst,a_string,S(aaaaa),Binary(Seq,Print(Call(GetField(Var(a_re),test),List(Var(a_string)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    1:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Decl(MConst,a_string,S(aaaaa),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(Var(a_string)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    2:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaaaa)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    3:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Print(B(true)),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  true[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    4:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Undefined,Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    5:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    6:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(S(ab))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    7:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Binary(Seq,B(true),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    8:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##    9:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Call(GetField(Call(Function(None,Left(List((r,TRegExp))),None,Var(r)),List(RE(RSingle(a)))),test),List(S(abc)))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##   10:[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  ##  Call(GetField(RE(RSingle(a)),test),List(S(abc)))[0m[0m
+[0m[[0minfo[0m] [0m[31m  ## Map()[0m[0m
+[0m[[0minfo[0m] [0m[31m  false (JavascriptyTester.scala:22)[0m[0m

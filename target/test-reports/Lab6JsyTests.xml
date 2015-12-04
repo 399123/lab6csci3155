@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="LPCs-5th-Cylon.local" name="Lab6JsyTests" tests="3" errors="0" failures="2" time="0.282">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.65-b01"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/zach/CodingProjects/ppl/lab6"/><property name="java.runtime.version" value="1.8.0_65-b17"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/dx/lr7p9dk10bx8pg8bzfxyf1kc0000gp/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/zach/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.11.1"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/zach"/><property name="user.timezone" value="America/Denver"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/0.13.9/libexec/sbt-launch.jar"/><property name="user.name" value="zach"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/0.13.9/libexec/sbt-launch.jar test"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_65"/><property name="java.ext.dirs" value="/Users/zach/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="Lab6JsyTests" name="ans" time="0.157">
+                                                 
+                                               </testcase><testcase classname="Lab6JsyTests" name="ans" time="0.079">
+                                                 <failure message="Computed output does not match expected output.
+Computed:
+# Type checking ...
+scala.NotImplementedError: an implementation is missing
+
+Expected:
+# Type checking ...
+## Undefined
+# Stepping ...
+##    0:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))
+##    1:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))
+true
+##    2:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))
+##    3:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))
+##    4:
+##  Map()
+##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))
+false
+##    5:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))
+##    6:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))
+##    7:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))
+true
+##    8:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))
+##    9:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))
+##   10:
+##  Map()
+##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))
+false
+##   11:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))
+##   12:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))
+##   13:
+##  Map()
+##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))
+false
+##   14:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))
+##   15:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))
+##   16:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))
+true
+##   17:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))
+##   18:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))
+##   19:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))
+true
+##   20:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))
+##   21:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))
+##   22:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))
+true
+##   23:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))
+##   24:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))
+##   25:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))
+true
+##   26:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))
+##   27:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))
+##   28:
+##  Map()
+##  Binary(Seq,Print(B(true)),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))
+true
+##   29:
+##  Map()
+##  Binary(Seq,Undefined,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))
+##   30:
+##  Map()
+##  Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))
+##   31:
+##  Map()
+##  Print(B(false))
+false
+## Map()
+undefined
+" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: Computed output does not match expected output.
+Computed:
+# Type checking ...
+scala.NotImplementedError: an implementation is missing
+
+Expected:
+# Type checking ...
+## Undefined
+# Stepping ...
+##    0:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))
+##    1:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))
+true
+##    2:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))))
+##    3:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RAnyChar),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))
+##    4:
+##  Map()
+##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))
+false
+##    5:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))))
+##    6:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))
+##    7:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))
+true
+##    8:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))))
+##    9:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RSingle(a)),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))
+##   10:
+##  Map()
+##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))
+false
+##   11:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))))
+##   12:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))
+##   13:
+##  Map()
+##  Binary(Seq,Print(B(false)),Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))
+false
+##   14:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))))
+##   15:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RConcat(RSingle(a),RSingle(a))),test),List(S(aa)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))
+##   16:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))
+true
+##   17:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))))
+##   18:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(a)))),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))
+##   19:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))
+true
+##   20:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))))
+##   21:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RUnion(RSingle(a),RSingle(b))),test),List(S(b)))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))
+##   22:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))
+true
+##   23:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))))
+##   24:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S()))),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))
+##   25:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))
+true
+##   26:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))))
+##   27:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaa)))),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))
+##   28:
+##  Map()
+##  Binary(Seq,Print(B(true)),Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))
+true
+##   29:
+##  Map()
+##  Binary(Seq,Undefined,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b)))))
+##   30:
+##  Map()
+##  Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(b))))
+##   31:
+##  Map()
+##  Print(B(false))
+false
+## Map()
+undefined
+
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:468)
+	at org.scalatest.FlatSpec.newAssertionFailedException(FlatSpec.scala:1683)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:364)
+	at jsy.tester.JavascriptyTester$$anonfun$1$$anonfun$apply$1.apply$mcV$sp(JavascriptyTester.scala:22)
+	at jsy.tester.JavascriptyTester$$anonfun$1$$anonfun$apply$1.apply(JavascriptyTester.scala:20)
+	at jsy.tester.JavascriptyTester$$anonfun$1$$anonfun$apply$1.apply(JavascriptyTester.scala:20)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1636)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1121)
+	at org.scalatest.FlatSpec.withFixture(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$class.invokeWithFixture$1(FlatSpecLike.scala:1633)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1645)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1645)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.FlatSpecLike$class.runTest(FlatSpecLike.scala:1645)
+	at org.scalatest.FlatSpec.runTest(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1703)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1703)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:427)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)
+	at org.scalatest.FlatSpecLike$class.runTests(FlatSpecLike.scala:1703)
+	at org.scalatest.FlatSpec.runTests(FlatSpec.scala:1683)
+	at org.scalatest.Suite$class.run(Suite.scala:1423)
+	at org.scalatest.FlatSpec.org$scalatest$FlatSpecLike$$super$run(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1749)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1749)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)
+	at org.scalatest.FlatSpecLike$class.run(FlatSpecLike.scala:1749)
+	at org.scalatest.FlatSpec.run(FlatSpec.scala:1683)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:444)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:651)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$.sbt$Tests$$processRunnable$1(Tests.scala:239)
+	at sbt.Tests$$anonfun$makeSerial$1.apply(Tests.scala:245)
+	at sbt.Tests$$anonfun$makeSerial$1.apply(Tests.scala:245)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+                                               </testcase><testcase classname="Lab6JsyTests" name="ans" time="0.046">
+                                                 <failure message="Computed output does not match expected output.
+Computed:
+# Type checking ...
+scala.NotImplementedError: an implementation is missing
+
+Expected:
+# Type checking ...
+## bool
+# Stepping ...
+##    0:
+##  Map()
+##  Decl(MConst,a_re,RE(RStar(RSingle(a))),Decl(MConst,a_string,S(aaaaa),Binary(Seq,Print(Call(GetField(Var(a_re),test),List(Var(a_string)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))))
+##    1:
+##  Map()
+##  Decl(MConst,a_string,S(aaaaa),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(Var(a_string)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))))
+##    2:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaaaa)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))
+##    3:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))
+true
+##    4:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))
+##    5:
+##  Map()
+##  Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))
+##    6:
+##  Map()
+##  Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(S(ab))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))
+##    7:
+##  Map()
+##  Binary(Seq,B(true),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))
+##    8:
+##  Map()
+##  Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))
+##    9:
+##  Map()
+##  Call(GetField(Call(Function(None,Left(List((r,TRegExp))),None,Var(r)),List(RE(RSingle(a)))),test),List(S(abc)))
+##   10:
+##  Map()
+##  Call(GetField(RE(RSingle(a)),test),List(S(abc)))
+## Map()
+false
+" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: Computed output does not match expected output.
+Computed:
+# Type checking ...
+scala.NotImplementedError: an implementation is missing
+
+Expected:
+# Type checking ...
+## bool
+# Stepping ...
+##    0:
+##  Map()
+##  Decl(MConst,a_re,RE(RStar(RSingle(a))),Decl(MConst,a_string,S(aaaaa),Binary(Seq,Print(Call(GetField(Var(a_re),test),List(Var(a_string)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))))
+##    1:
+##  Map()
+##  Decl(MConst,a_string,S(aaaaa),Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(Var(a_string)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))))
+##    2:
+##  Map()
+##  Binary(Seq,Print(Call(GetField(RE(RStar(RSingle(a))),test),List(S(aaaaa)))),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))
+##    3:
+##  Map()
+##  Binary(Seq,Print(B(true)),Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))
+true
+##    4:
+##  Map()
+##  Binary(Seq,Undefined,Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))))
+##    5:
+##  Map()
+##  Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(Binary(Plus,S(a),S(b)))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))
+##    6:
+##  Map()
+##  Binary(Seq,Call(GetField(RE(RConcat(RSingle(a),RSingle(b))),test),List(S(ab))),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))
+##    7:
+##  Map()
+##  Binary(Seq,B(true),Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc)))))
+##    8:
+##  Map()
+##  Decl(MConst,f,Function(None,Left(List((r,TRegExp))),None,Var(r)),Call(GetField(Call(Var(f),List(RE(RSingle(a)))),test),List(S(abc))))
+##    9:
+##  Map()
+##  Call(GetField(Call(Function(None,Left(List((r,TRegExp))),None,Var(r)),List(RE(RSingle(a)))),test),List(S(abc)))
+##   10:
+##  Map()
+##  Call(GetField(RE(RSingle(a)),test),List(S(abc)))
+## Map()
+false
+
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:468)
+	at org.scalatest.FlatSpec.newAssertionFailedException(FlatSpec.scala:1683)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:364)
+	at jsy.tester.JavascriptyTester$$anonfun$1$$anonfun$apply$1.apply$mcV$sp(JavascriptyTester.scala:22)
+	at jsy.tester.JavascriptyTester$$anonfun$1$$anonfun$apply$1.apply(JavascriptyTester.scala:20)
+	at jsy.tester.JavascriptyTester$$anonfun$1$$anonfun$apply$1.apply(JavascriptyTester.scala:20)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1636)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1121)
+	at org.scalatest.FlatSpec.withFixture(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$class.invokeWithFixture$1(FlatSpecLike.scala:1633)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1645)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1645)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.FlatSpecLike$class.runTest(FlatSpecLike.scala:1645)
+	at org.scalatest.FlatSpec.runTest(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1703)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1703)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:427)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)
+	at org.scalatest.FlatSpecLike$class.runTests(FlatSpecLike.scala:1703)
+	at org.scalatest.FlatSpec.runTests(FlatSpec.scala:1683)
+	at org.scalatest.Suite$class.run(Suite.scala:1423)
+	at org.scalatest.FlatSpec.org$scalatest$FlatSpecLike$$super$run(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1749)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1749)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)
+	at org.scalatest.FlatSpecLike$class.run(FlatSpecLike.scala:1749)
+	at org.scalatest.FlatSpec.run(FlatSpec.scala:1683)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:444)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:651)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$.sbt$Tests$$processRunnable$1(Tests.scala:239)
+	at sbt.Tests$$anonfun$makeSerial$1.apply(Tests.scala:245)
+	at sbt.Tests$$anonfun$makeSerial$1.apply(Tests.scala:245)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+                                               </testcase>
+                     <system-out></system-out>
+                     <system-err></system-err>
+                   </testsuite>

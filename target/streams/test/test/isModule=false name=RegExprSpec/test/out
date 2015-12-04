@@ -1,0 +1,34 @@
+[0m[[0minfo[0m] [0m[32mRegExprSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mparse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should on 'a' produce a RegExpr AST matching the reference (14 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should on 'b' produce a RegExpr AST matching the reference (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should on '.' produce a RegExpr AST matching the reference (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should on 'aa' produce a RegExpr AST matching the reference (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should on '(aa)*' produce a RegExpr AST matching the reference (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32mretest[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test '' on 'a' (15 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'a' on 'a' (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aa' on 'a' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'ab' on 'a' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aaa' on 'a' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test '' on 'b' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'a' on 'b' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aa' on 'b' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'ab' on 'b' (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aaa' on 'b' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test '' on '.' (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'a' on '.' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aa' on '.' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'ab' on '.' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aaa' on '.' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test '' on 'aa' (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'a' on 'aa' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aa' on 'aa' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'ab' on 'aa' (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aaa' on 'aa' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test '' on '(aa)*' (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'a' on '(aa)*' (1 millisecond)[0m[0m
+[0m[[0minfo[0m] [0m[31m- should test 'aa' on '(aa)*' *** FAILED *** (5 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[31m  Expected true, but got false (Lab6Spec.scala:71)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'ab' on '(aa)*' (0 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should test 'aaa' on '(aa)*' (0 milliseconds)[0m[0m
